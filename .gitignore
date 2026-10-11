@@ -1,0 +1,49 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.python-version
+.uv/
+
+# Downloaded Kaggle inputs and archives
+data/
+**/data/
+*.csv
+*.parquet
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+kaggle.json
+**/kaggle.json
+.aws/
+.codex/
+
+# Generated local artifacts
+**/kaggle-output/
+submission.csv
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.model
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.log
+logs/
+**/logs/
+replays/
+**/replays/
+catboost_info/
+results/
+**/results/
+snapshots/
+**/snapshots/
+.DS_Store

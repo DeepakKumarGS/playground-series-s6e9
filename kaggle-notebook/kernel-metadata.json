@@ -1,0 +1,23 @@
+{
+  "id": "gsdeepakkumar/ps-s6e9-v5-10fold-prior-stack",
+  "title": "PS S6E9 v5 10-Fold Latent Prior Stack",
+  "code_file": "ps-s6e9-v5-10fold-prior-stack.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": [
+    "playground-series-s6e9"
+  ],
+  "dataset_sources": [
+    "itzzomkar/ev-adoption-behavior-and-range-anxiety"
+  ],
+  "keywords": [
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "feature-engineering",
+    "binary-classification"
+  ]
+}
